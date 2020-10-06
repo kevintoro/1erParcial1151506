@@ -1,9 +1,9 @@
 #img-header {
-  height: 200px;
+  max-height: 150px !important;
 }
 
 .navbar {
-  background-color: #8e44ad !important;
+  background-color: #5b2c6f !important;
 }
 
 .text-img {
@@ -15,11 +15,16 @@
 }
 
 .btn-purple {
-  background-color: #8e44ad !important;
+  background-color: #5b2c6f !important;
   color: #ffffff !important;
 }
 
 .footerPage {
   background-color: #00155b;
   color: #ffffff;
+}
+
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+  white-space: nowrap;
 }
